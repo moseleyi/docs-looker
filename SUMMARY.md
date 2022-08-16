@@ -14,6 +14,7 @@
   * [Shortcuts](knowledge-base/looker-tips/shortcuts.md)
   * [Visualisations](knowledge-base/looker-tips/visualisations.md)
   * [Data Table](knowledge-base/looker-tips/data-table.md)
+* [Refinements](knowledge-base/refinements.md)
 
 ## LookML
 
@@ -22,3 +23,4 @@
     * [Fields](lookml/development-guide/views/fields/README.md)
       * [Naming Convention](lookml/development-guide/views/fields/naming-convention.md)
       * [Parameters](lookml/development-guide/views/fields/parameters.md)
+  * [Refinements](lookml/development-guide/refinements.md)
