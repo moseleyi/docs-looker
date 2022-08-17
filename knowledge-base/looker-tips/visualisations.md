@@ -4,7 +4,7 @@
 
 If you want to quickly know the **% of previous bar**, you can enable this setting in visualisation settings **`Show Percent of Previous`**It will create arrows overlaying bar chart. Just remember it's the % of the previous bar, not the difference
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 ### _Put it in a bin or a bucket_
 
@@ -20,7 +20,7 @@ Put in a bin ![:put\_litter\_in\_its\_place:](https://slack-imgs.com/?c=1\&o1=gu
 
 Now, you have buckets of new information! ![:boom:](https://slack-imgs.com/?c=1\&o1=gu\&url=https%3A%2F%2Fa.slack-edge.com%2Fproduction-standard-emoji-assets%2F13.0%2Fgoogle-medium%2F1f4a5.png)
 
-![](<../../.gitbook/assets/image (3).png>)![](<../../.gitbook/assets/image (1).png>)![](<../../.gitbook/assets/image (6).png>)![](<../../.gitbook/assets/image (12).png>)![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)![](<../../.gitbook/assets/image (1) (1).png>)![](<../../.gitbook/assets/image (6).png>)![](<../../.gitbook/assets/image (12).png>)![](<../../.gitbook/assets/image (14).png>)
 
 ### _Row Totals excluded from Conditional Formatting_
 
@@ -33,3 +33,26 @@ One downside is if you select to show Row Totals in your Data Table, they will b
 ![](<../../.gitbook/assets/image (9).png>)
 
 As you can see, the Row Total is formatted but it doesn't change the scale. the highest point 2768 is still green. This becomes more of a visual preference that some people treat as a bug because it's all about visuals with conditional formatting.
+
+
+
+### _Transposing List of Measures_
+
+Imagine you only have a list of measures, it could be some financial metrics, average times or counts (but not for funnel) and you would like to simply show it as a two-column table.
+
+In this example I will use Hubspot Deals data and their average time between some stages. I have only one row of measures like this:
+
+![](<../../.gitbook/assets/image (2).png>)
+
+Without a dimension, when using Transpose functionality, Looker will throw an error:
+
+![](../../.gitbook/assets/image.png)
+
+In order to go around it, we can create a Custom Dimension with empty string as a value:
+
+![](<../../.gitbook/assets/image (8).png>)
+
+Now, you can click Transpose in the settings of Table visualisation and a two-column table will be created. As you can see, our Custom Dimension is nowhere to be seen.
+
+![](<../../.gitbook/assets/image (3).png>)
+

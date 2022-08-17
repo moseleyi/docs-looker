@@ -49,7 +49,7 @@ Will be displayed as **Currency**
 
 However, in a Table Calculation, you still have to refer to it by full name
 
-![](../../../../.gitbook/assets/image.png)
+![](<../../../../.gitbook/assets/image (13).png>)
 
 
 
@@ -57,7 +57,7 @@ However, in a Table Calculation, you still have to refer to it by full name
 
 Group label allows us to either group dimensions and measures together under a name that exlains all of them (come from the same source or are of the same data type) or simply by reducing the length of the name.
 
-![](<../../../../.gitbook/assets/image (8).png>)
+![](<../../../../.gitbook/assets/image (8) (1).png>)
 
 Above, you can see several dimensions grouped under the name **Hubspot**. The definitions of the fields, however, still contain prefix hubspot, so that we can identify the data easily in the code or reference it.&#x20;
 

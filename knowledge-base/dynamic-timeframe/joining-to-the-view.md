@@ -21,6 +21,6 @@ It will expose one filter-field only and one dimension:
 
 And by selecting them both, you can build your timeline:
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 And the best thing is that we can select and filter on Timeframe and the same time, as well as the formatting in the visualisation is changed to fit the best time granularity, done automatically by the visualisation engine.
