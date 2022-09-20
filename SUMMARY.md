@@ -28,3 +28,7 @@
 ## 🐞 Known Bugs
 
 * [LookML](known-bugs/lookml.md)
+
+## Feature Requests
+
+* [SQL](feature-requests/sql.md)
